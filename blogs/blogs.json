@@ -1,0 +1,28 @@
+{
+  "repo": "entyre",
+  "feeds": [
+    {
+      "source": "https://entyrecare.com/feed/",
+      "feed_url": "https://entyrecare.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://entyrecare.com",
+      "feed_url": "https://entyrecare.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://entyrecare.com/blog/",
+      "feed_url": "https://entyrecare.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 12,
+  "fetched": "2026-07-25T15:00:33Z"
+}

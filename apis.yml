@@ -1,8 +1,16 @@
 aid: entyre
-name: Entyre
-description: 'Entyre is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+name: Entyre Care
+description: 'Entyre Care is a US home health care provider that helps people who care
+  for a friend or family member at home get paid for the care they already provide.
+  Through state Medicaid structured / self-directed family caregiving programs, Entyre
+  Care guides caregivers through eligibility and enrollment, handles the paperwork,
+  and delivers financial compensation alongside professional caregiving guidance and
+  emotional support. The company operates in Maine, Massachusetts, Michigan, New Hampshire,
+  Ohio, Virginia, and Wisconsin, offering tools such as a compensation calculator, a
+  step-by-step guide to getting paid, and localized care teams. Entyre Care is a
+  consumer-facing healthcare services business and does not currently publish a public
+  developer program or API; this profile was surfaced as a portfolio company of HV
+  Capital and enriched with the company''s real identity and public web properties.'
 url: https://raw.githubusercontent.com/api-evangelist/entyre/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +18,53 @@ x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://entyrecare.com/wp-content/uploads/2025/02/entyre-care-team-1024x683.png
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Home Health Care
+- Caregiving
+- Family Caregiver
+- Medicaid
+- Health Services
+- Elder Care
 apis: []
+common:
+- type: Website
+  url: https://entyrecare.com
+- type: Blog
+  url: https://entyrecare.com/blog/
+- type: BlogRSS
+  url: https://entyrecare.com/blog/feed/
+- type: Support
+  url: https://entyrecare.com/contact/
+- type: TermsOfService
+  url: https://entyrecare.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://entyrecare.com/data-privacy/
+- type: DomainSecurity
+  url: security/entyre-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
